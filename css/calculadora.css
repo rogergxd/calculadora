@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: auto;
+	background-image: url(../imagenes/calculadora.jpeg);
+	background-size: cover;
+}
+
+.calculadora{
+	width: 300px;
+	height: auto;
+	padding: 10px 5px;
+	margin: 100px auto;
+	background-color: red;
+	border-radius: 6%;
+	
+}
+#pantalla{
+	width: 90%;
+	height: 50px;
+	margin:auto;
+	background-color: white;
+	border: 2px black solid;
+}
+#pantalla p{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 5%;
+}
+#numeros{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1px;
+	padding: 20px;
+}
+#action{
+	width: 85%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#action button{
+	font-size: 14px;
+}
+
+button{
+	font-size: 24px;
+	padding: 10px;
+
+}
